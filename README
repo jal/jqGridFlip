@@ -1,0 +1,7 @@
+jqGridFlip is a versatile slideshow system.
+
+Features include
+
+- configurable dimensions - 1 item at a time, or a grid of any size
+- end-to-end or circular navigation
+- image preloading (browser caching)
