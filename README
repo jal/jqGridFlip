@@ -1,7 +1,26 @@
 jqGridFlip is a versatile slideshow system.
 
-Features include
+Features include:
 
 - configurable dimensions - 1 item at a time, or a grid of any size
 - end-to-end or circular navigation
 - image preloading (browser caching)
+- optional zoom effects on hover
+- html template for each item
+
+Requires:
+
+- jQuery. The only jQ functions used in the core are removeClass(), addClass() and html(), so it could easily be refactored to use another common library, or your own methods.
+
+Does not currently include:
+
+- transitions
+- ajax loading
+
+Basic usage:
+
+1 - define a grid_type, by specifying
+     - DOM element as a container, by ID
+     - an array of data to use. Each element is given to the template function on page flip
+     - quantity per page
+     - various options
